@@ -1,0 +1,18 @@
+{
+  "name": "figma-react-builder",
+  "version": "0.0.1",
+  "description": "Import Figma file(s) and create react components",
+  "main": "src/index.js",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "figma": "node ./src/index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "change-case": "^4.1.2",
+    "node-cache": "^5.1.2",
+    "node-fetch": "^3.2.3",
+    "ramda": "^0.28.0"
+  }
+}
